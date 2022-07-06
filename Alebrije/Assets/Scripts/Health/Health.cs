@@ -44,7 +44,7 @@ public class Health : MonoBehaviour
     }
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E)&& !PauseMenu.isPaused)
         {
             TakeDamage(1);
         }
@@ -63,8 +63,7 @@ public class Health : MonoBehaviour
         anim.Play("Idle");
         GetComponent<playerMovement>().enabled = true;
 
-        //foreach (Behaviour component in components)
-            //component.enabled = true;
+        
     }
 
 
