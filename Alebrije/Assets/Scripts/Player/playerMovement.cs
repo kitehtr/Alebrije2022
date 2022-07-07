@@ -1,15 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
+    public float flyingSpeed = 12f;
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
+    private float currentTime = 0f;
+    private float startingTime = 5f;
+    public bool timerActive = false;
+
+    [SerializeField] Text countdownText;
 
     private void Awake()
     {
@@ -17,13 +24,30 @@ public class playerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        currentTime = startingTime;
+        timerActive = true;
         
     }
-
+   
     private void Update()
     {
+        
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
+
+        if(timerActive)
+        {
+            if(currentTime > 0)
+            {
+                currentTime -= 1 * Time.deltaTime;
+                Debug.Log(currentTime);
+            }
+            else{
+            currentTime = 0;
+            timerActive = false;
+            }
+            
+        }
         
 
         //flip player when moving left/right
@@ -34,6 +58,8 @@ public class playerMovement : MonoBehaviour
 
         if(Input.GetKey(KeyCode.Space) && isGrounded())
             Jump();
+        if(Input.GetKey(KeyCode.Space) && currentTime > 0 )
+            fly();
 
         //Set animator parameters
         anim.SetBool("Run", horizontalInput != 0);
@@ -45,6 +71,12 @@ public class playerMovement : MonoBehaviour
         body.velocity = new Vector2(body.velocity.x, speed);
         anim.SetTrigger("Jump");
 
+    }
+
+    public void fly()
+    {
+        body.velocity = new Vector2(body.velocity.x, 5);
+        anim.SetTrigger("Jump");
     }
 
     private bool isGrounded()
@@ -62,5 +94,15 @@ public class playerMovement : MonoBehaviour
     public bool canAttack()
     {
         return !onWall();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.transform.tag =="Flower")
+        {
+            currentTime = 4f;
+            timerActive = true;
+            
+        }
     }
 }

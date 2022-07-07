@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject enemy;
 
     [SerializeField] private Behaviour[] components;
     private bool invulnerable;

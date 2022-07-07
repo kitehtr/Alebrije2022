@@ -28,5 +28,8 @@ public class PlayerRespawn : MonoBehaviour
             collision.GetComponent<Collider2D>().enabled = false;
             
         }
+
     }
+
+    
 }
