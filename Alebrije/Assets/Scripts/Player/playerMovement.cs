@@ -6,17 +6,36 @@ using UnityEngine.UI;
 public class playerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
+    //checking for collisions with the walls and celling
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
+    
+    //movment speeds
     public float flyingSpeed = 12f;
+    public float dashDistance = 15f;
+
+    //grabbing reference from the player
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
+
+    //flying duration variables
     private float currentTime = 0f;
     private float startingTime = 5f;
     public bool timerActive = false;
 
-    [SerializeField] Text countdownText;
+    //dashing variables
+    private bool canDash = true;
+    private bool isDashing;
+    private float dashingPower = 20f;
+    private float dashingTime = 0.2f;
+    private float dashingCooldown = 1f;
+
+    
+    //testing other stuff
+    //public GameObject Player;
+
+    //[SerializeField] Text countdownText;
 
     private void Awake()
     {
@@ -31,7 +50,11 @@ public class playerMovement : MonoBehaviour
    
     private void Update()
     {
-        
+         
+        if (isDashing )
+        {
+            return;
+        }
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
@@ -60,10 +83,22 @@ public class playerMovement : MonoBehaviour
             Jump();
         if(Input.GetKey(KeyCode.Space) && currentTime > 0 )
             fly();
-
+        
+        if(Input.GetKey(KeyCode.LeftShift) && canDash && !isGrounded())
+        {
+            StartCoroutine(Dash());
+        }
         //Set animator parameters
         anim.SetBool("Run", horizontalInput != 0);
         anim.SetBool("Grounded", isGrounded());
+    }
+
+    private void FixedUpdate()
+    {
+        if(isDashing)
+        {
+            return;
+        }
     }
 
     private void Jump()
@@ -77,6 +112,21 @@ public class playerMovement : MonoBehaviour
     {
         body.velocity = new Vector2(body.velocity.x, 5);
         anim.SetTrigger("Jump");
+    }
+
+    private IEnumerator Dash ()
+    {
+        canDash = false;
+        isDashing = true;
+        float originalGravity = body.gravityScale;
+        body.gravityScale = 0f;
+        body.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        yield return new WaitForSeconds(dashingTime);
+        body.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
+
     }
 
     private bool isGrounded()
