@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class playerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float jumpForce;
     //checking for collisions with the walls and celling
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
@@ -103,7 +104,7 @@ public class playerMovement : MonoBehaviour
 
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, speed);
+        body.velocity = new Vector2(body.velocity.x, jumpForce);
         anim.SetTrigger("Jump");
 
     }
