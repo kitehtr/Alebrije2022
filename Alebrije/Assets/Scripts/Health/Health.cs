@@ -46,7 +46,7 @@ public class Health : MonoBehaviour
     }
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E)&& !PauseMenu.isPaused)
+        if(Input.GetKeyDown(KeyCode.E) && !PauseMenu.isPaused)
         {
             TakeDamage(1);
         }
@@ -66,6 +66,12 @@ public class Health : MonoBehaviour
         GetComponent<playerMovement>().enabled = true;
 
         
+    }
+
+    private void Deactivate()
+    {
+        gameObject.SetActive(false);
+
     }
 
 

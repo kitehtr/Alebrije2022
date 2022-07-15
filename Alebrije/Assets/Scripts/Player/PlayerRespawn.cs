@@ -28,6 +28,9 @@ public class PlayerRespawn : MonoBehaviour
             collision.GetComponent<Collider2D>().enabled = false;
             
         }
+        // else {
+        //     currentCheckpoint = (-9,-0.5,0)
+        // }
 
     }
 
