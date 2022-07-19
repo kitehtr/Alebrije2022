@@ -6,13 +6,12 @@ using UnityEngine.UI;
 public class playerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
-    [SerializeField] private float jumpForce;
     //checking for collisions with the walls and celling
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
     
     //movment speeds
-    public float flyingSpeed = 12f;
+    [SerializeField] public float flyingSpeed = 12f;
     public float dashDistance = 15f;
 
     //grabbing reference from the player
@@ -22,7 +21,7 @@ public class playerMovement : MonoBehaviour
 
     //flying duration variables
     private float currentTime = 0f;
-    private float startingTime = 5f;
+    [SerializeField]private float startingTime = 5f;
     public bool timerActive = false;
 
     //air dashing variables
@@ -106,7 +105,7 @@ public class playerMovement : MonoBehaviour
 
     public void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, jumpForce);
+        body.velocity = new Vector2(body.velocity.x, speed);
         anim.SetTrigger("Jump");
 
     }
