@@ -149,27 +149,12 @@ public class playerMovement : MonoBehaviour
         return !onWall();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.transform.tag =="Flower")
-        {   
-            // need to figure out detection when f is pressed over flower to interact and pollinate flower == gain powers to fly and dash again
-            currentTime = 4f;
-            timerActive = true;
-            // if(Input.GetKeyDown(KeyCode.F))
-            // {
-            // currentTime = 4f;
-            // timerActive = true;
-            // Debug.Log("F WAS PRESSED");
-            // }
-
-            
-        }
-    }
 
     public void HasAbilities()
     {
         currentTime = 4f;
         timerActive = true;
+        Debug.Log(currentTime);
+       
     }
 }

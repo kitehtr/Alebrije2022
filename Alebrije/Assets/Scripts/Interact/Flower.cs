@@ -5,11 +5,21 @@ using UnityEngine;
 public class Flower : MonoBehaviour
 {
 
-    private playerMovement playerMovement;
+    playerMovement PlayerMovement;
+    [SerializeField] GameObject player;
 
 
-    // public void pollinate()
-    // {
-    //     HasAbilities();
-    // }
+    void Awake()
+    {
+        PlayerMovement = player.GetComponent<playerMovement>();
+    }
+
+
+    public void pollinate()
+    {
+        PlayerMovement.HasAbilities();
+        
+        // Since there is no animation for pollinating yet, I am just going to comment out the animation trigger for it.
+        //anim.SetTrigger("Pollinate");
+    }
 }

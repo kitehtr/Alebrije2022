@@ -8,11 +8,12 @@ TagManager:
   - Enemy
   - Checkpoint
   - Flower
+  - Background
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
   - 
@@ -20,7 +21,7 @@ TagManager:
   - Ground
   - Wall
   - Enemy
-  - player
+  - 
   - 
   - 
   - 
@@ -45,13 +46,16 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Player
     uniqueID: 1168342471
     locked: 0
-  - name: Foreground
+  - name: Enemy
+    uniqueID: 2996329409
+    locked: 0
+  - name: Background
     uniqueID: 1802222531
     locked: 0
-  - name: Player
+  - name: Foreground
     uniqueID: 2133826705
     locked: 0
   - name: Ground
