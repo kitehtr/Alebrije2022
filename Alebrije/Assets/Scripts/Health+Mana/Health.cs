@@ -26,7 +26,7 @@ public class Health : MonoBehaviour
         
         if(currentHealth > 0 )
         {
-            anim.SetTrigger("Hurt");
+            //anim.SetTrigger("Hurt");
         }
         else {
             if(!dead)
@@ -34,7 +34,7 @@ public class Health : MonoBehaviour
                 //foreach (Behaviour component in components)
                     //component.enabled = false;
                 
-                anim.SetTrigger("Die");
+                //anim.SetTrigger("Die");
                 //anim.SetBool("Grounded", true);
                 if (GetComponent<playerMovement>() != null)
                 GetComponent<playerMovement>().enabled = false;
@@ -61,8 +61,8 @@ public class Health : MonoBehaviour
     {
         dead = false;
         AddHealth(startingHealth);
-        anim.ResetTrigger("Die");
-        anim.Play("Idle");
+        //anim.ResetTrigger("Die");
+        //anim.Play("Idle");
         GetComponent<playerMovement>().enabled = true;
 
         

@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ManaBar : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Mana playerMana;
+    [SerializeField] private Image totalManaBar;
+    [SerializeField] private Image currentManaBar;
+
+    private void Start()
     {
-        
+        totalManaBar.fillAmount = playerMana.currentMana / 10;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        currentManaBar.fillAmount = playerMana.currentMana / 10;
     }
 }

@@ -20,6 +20,7 @@ public class playerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
 
     //flying duration variables
+    private bool canFly;
     private float currentTime = 0f;
     [SerializeField]private float startingTime = 5f;
     public bool timerActive = false;
@@ -31,11 +32,8 @@ public class playerMovement : MonoBehaviour
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
 
-    
-    //testing other stuff
-    //public GameObject Player;
-
-    //[SerializeField] Text countdownText;
+    //jump variables
+    private bool hasJumped = true;
 
     private void Awake()
     {
@@ -64,12 +62,14 @@ public class playerMovement : MonoBehaviour
         {
             if(currentTime > 0)
             {
+                
                 currentTime -= 1 * Time.deltaTime;
                 Debug.Log(currentTime);
             }
             else{
             currentTime = 0;
             timerActive = false;
+            canFly = false;
             }
             
         }
@@ -83,10 +83,10 @@ public class playerMovement : MonoBehaviour
         if(Input.GetKey(KeyCode.Space) && isGrounded())
             Jump();
         //fly prompts
-        if(Input.GetKey(KeyCode.Space) && currentTime > 0 && !isGrounded() )
+        if(Input.GetKey(KeyCode.W) && currentTime > 0 && !isGrounded() && hasJumped == true && canFly == true)
             fly();
         // dash conditions/prompts
-        if(Input.GetKey(KeyCode.LeftShift) && canDash && !isGrounded())
+        if(Input.GetKey(KeyCode.LeftShift) && canDash && !isGrounded() && hasJumped == true)
         {
             StartCoroutine(Dash());
         }
@@ -105,15 +105,24 @@ public class playerMovement : MonoBehaviour
 
     public void Jump()
     {
+        if(!onWall())
+        {
+        hasJumped = false;
         body.velocity = new Vector2(body.velocity.x, speed);
         anim.SetTrigger("Jump");
+        hasJumped = true;
+        canFly = true;
+        }
+
 
     }
 
     public void fly()
     {
+        
         body.velocity = new Vector2(body.velocity.x, 5);
-        anim.SetTrigger("Jump");
+        //anim.SetTrigger("Jump");
+        
     }
 
     public IEnumerator Dash ()
