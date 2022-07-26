@@ -11,11 +11,14 @@ public class Mana : MonoBehaviour
 
     private bool invulnerable;
     public float currentMana { get; private set;}
+
+    playerMovement PlayerMovement;
     //private Animator anim;
 
     private void Awake()
     {
         currentMana = startingMana;
+        PlayerMovement = player.GetComponent<playerMovement>();
         //anim = GetComponent<Animator>();
     }
 
@@ -27,28 +30,28 @@ public class Mana : MonoBehaviour
         {
             //anim.SetTrigger("Hurt");
         }
-        else {
-            if(!dead)
-            {
-                //foreach (Behaviour component in components)
-                //component.enabled = false;
+        // else {
+        //     if(!dead)
+        //     {
+        //         //foreach (Behaviour component in components)
+        //         //component.enabled = false;
                 
-                //anim.SetTrigger("Die");
-                //anim.SetBool("Grounded", true);
-                if (GetComponent<playerMovement>() != null)
-                GetComponent<playerMovement>().enabled = false;
-                dead = true;
-            }
+        //         //anim.SetTrigger("Die");
+        //         //anim.SetBool("Grounded", true);
+        //         if (GetComponent<playerMovement>() != null)
+        //         GetComponent<playerMovement>().enabled = false;
+        //         dead = true;
+        //     }
 
-        }
+        // }
        
     }
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && !PauseMenu.isPaused)
-        {
-            reduceMana(1);
-        }
+        // if(Input.GetKeyDown(KeyCode.E) && !PauseMenu.isPaused)
+        // {
+        //     AddMana(1);
+        // }
 
     }
     

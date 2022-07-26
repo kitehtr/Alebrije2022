@@ -11,11 +11,11 @@ public class ManaBar : MonoBehaviour
 
     private void Start()
     {
-        totalManaBar.fillAmount = playerMana.currentMana / 10;
+        totalManaBar.fillAmount = playerMana.currentMana/10;
     }
 
     private void Update()
     {
-        currentManaBar.fillAmount = playerMana.currentMana / 10;
+        currentManaBar.fillAmount = playerMana.currentMana/10;
     }
 }

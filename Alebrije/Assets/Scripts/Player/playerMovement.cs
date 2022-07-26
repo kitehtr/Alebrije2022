@@ -20,7 +20,8 @@ public class playerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
 
     //flying duration variables
-    private bool canFly;
+    public bool canFly;
+    //private bool isFlying;
     private float currentTime = 0f;
     [SerializeField]private float startingTime = 5f;
     public bool timerActive = false;
@@ -35,6 +36,9 @@ public class playerMovement : MonoBehaviour
     //jump variables
     private bool hasJumped = true;
 
+    [SerializeField] GameObject player;
+    Mana mana;
+
     private void Awake()
     {
         //Grab reference for rb, animator, and box collider + start timer for flying/dashing 
@@ -43,6 +47,7 @@ public class playerMovement : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         currentTime = startingTime;
         timerActive = true;
+        mana = player.GetComponent<Mana>();
         
     }
    
@@ -64,12 +69,14 @@ public class playerMovement : MonoBehaviour
             {
                 
                 currentTime -= 1 * Time.deltaTime;
-                Debug.Log(currentTime);
+                //Debug.Log(currentTime);
             }
             else{
             currentTime = 0;
             timerActive = false;
             canFly = false;
+            mana.reduceMana(1);
+            
             }
             
         }
@@ -80,11 +87,17 @@ public class playerMovement : MonoBehaviour
         else if (horizontalInput < -0.01f)
             transform.localScale = new Vector3(-1,1,1);
         //jump prompts
-        if(Input.GetKey(KeyCode.Space) && isGrounded())
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded())
             Jump();
         //fly prompts
-        if(Input.GetKey(KeyCode.W) && currentTime > 0 && !isGrounded() && hasJumped == true && canFly == true)
-            fly();
+        if(Input.GetKey(KeyCode.W) && mana.currentMana > 0 && !isGrounded() && hasJumped == true && canFly == true )
+            {   
+                //isFlying = true;
+                
+                //Debug.Log(currentTime);
+                fly();
+            }
+            
         // dash conditions/prompts
         if(Input.GetKey(KeyCode.LeftShift) && canDash && !isGrounded() && hasJumped == true)
         {
@@ -93,6 +106,8 @@ public class playerMovement : MonoBehaviour
         //Set animator parameters
         anim.SetBool("Run", horizontalInput != 0);
         anim.SetBool("Grounded", isGrounded());
+
+        
     }
 
     private void FixedUpdate()
@@ -119,9 +134,29 @@ public class playerMovement : MonoBehaviour
 
     public void fly()
     {
-        
+        if(mana.currentMana == 0 )
+        {
+            canFly = false;
+        }
+
+        currentTime = 2f;
+        timerActive = true;
+        //Debug.Log(currentTime);
+
+
+        // if(isFlying == true && Input.GetKey(KeyCode.W) )
+        // {
+        // currentTime = 2f;
+        // timerActive = true;
+        // Debug.Log(currentTime);
+
+        // }
+        // isFlying = false;
+
+
         body.velocity = new Vector2(body.velocity.x, 5);
-        //anim.SetTrigger("Jump");
+        //anim.SetTrigger("Fly");
+        //isFlying = false;
         
     }
 
@@ -144,6 +179,7 @@ public class playerMovement : MonoBehaviour
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size,0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
+        
     }
 
     private bool onWall()
@@ -158,11 +194,4 @@ public class playerMovement : MonoBehaviour
     }
 
 
-    public void HasAbilities()
-    {
-        currentTime = 4f;
-        timerActive = true;
-        Debug.Log(currentTime);
-       
-    }
 }

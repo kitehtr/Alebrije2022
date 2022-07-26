@@ -151,7 +151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1886970751213281380, guid: 96488ce33dd692c4fb426f380fea2634, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1886970751213281380, guid: 96488ce33dd692c4fb426f380fea2634, type: 3}
       propertyPath: m_SortingOrder
@@ -205,6 +205,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1886970751213281384, guid: 96488ce33dd692c4fb426f380fea2634, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2141085762}
     - target: {fileID: 1886970751213281386, guid: 96488ce33dd692c4fb426f380fea2634, type: 3}
       propertyPath: playerLayer.m_Bits
       value: 2056
@@ -2645,7 +2649,7 @@ RectTransform:
   m_GameObject: {fileID: 893962115}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451899182}
@@ -2653,7 +2657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035156, y: -0.000030517578}
+  m_AnchoredPosition: {x: 400, y: 25}
   m_SizeDelta: {x: 351.096, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &893962117
@@ -3445,7 +3449,7 @@ RectTransform:
   m_GameObject: {fileID: 1201066929}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451899182}
@@ -3453,7 +3457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00006103516, y: -0.000030517578}
+  m_AnchoredPosition: {x: 400, y: 25}
   m_SizeDelta: {x: 351.096, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1201066931
@@ -4593,7 +4597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285, y: 1}
+  m_AnchoredPosition: {x: -260, y: 20}
   m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1608558201
@@ -4669,7 +4673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285, y: 1}
+  m_AnchoredPosition: {x: -260, y: 20}
   m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620168130
@@ -6905,7 +6909,7 @@ SpriteRenderer:
   m_SortingLayerID: 1168342471
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fa98a1c2ee099514991d0f2d8b1380ba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d27cdc0ae5a5bd342805ae85fe608fc3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6969,17 +6973,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2581135bfd27d1a49a61c3f2a68c5aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12
+  speed: 14
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
   wallLayer:
     serializedVersion: 2
     m_Bits: 512
-  flyingSpeed: 2
+  flyingSpeed: 10
   dashDistance: 15
-  startingTime: 5
+  canFly: 0
+  startingTime: 2
   timerActive: 0
+  player: {fileID: 2141085762}
 --- !u!50 &2141085767
 Rigidbody2D:
   serializedVersion: 4
@@ -7075,6 +7081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72db0ad1a7b541c4e8bb42d857fbc094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingMana: 3
+  startingMana: 4
   player: {fileID: 2141085762}
   enemy: {fileID: 1931108283}
