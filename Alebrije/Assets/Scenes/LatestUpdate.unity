@@ -123,6 +123,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1352448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2095311212754055614, guid: d91ceb9bc27d86a4989ad8dcce909b51, type: 3}
+  m_PrefabInstance: {fileID: 1987286394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1352449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72db0ad1a7b541c4e8bb42d857fbc094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingMana: 4
+  player: {fileID: 1352448}
+  enemy: {fileID: 0}
 --- !u!4 &47127243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2045064471869507940, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
@@ -1908,6 +1928,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce984a9475aa64042aac1663f03e841f, type: 3}
+--- !u!1 &604301176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2045064471580561925, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+  m_PrefabInstance: {fileID: 1131679500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &604301180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604301176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edaf519856d84cb4da6310bb7890033e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInRange: 0
+  interactKey: 331
+  interactAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1314221077}
+        m_TargetAssemblyTypeName: Flower, Assembly-CSharp
+        m_MethodName: pollinate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &645591820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3179,10 +3233,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1460836022}
     m_Modifications:
+    - target: {fileID: 2045064471580562042, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: interactKey
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045064471580562042, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045064471580562042, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045064471580562042, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1314221077}
+    - target: {fileID: 2045064471580562042, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045064471580562042, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: pollinate
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045064471580562042, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Flower, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045064471580562042, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2045064471869507928, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2141085762}
+    - target: {fileID: 2045064471869507928, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: pollinateSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 45ec68f5b2a1f0043a30aa4f8fa484fe, type: 3}
+    - target: {fileID: 2045064471869507928, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+      propertyPath: startingHealth
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2045064471869507940, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3706,6 +3800,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3358959140262870386, guid: ce984a9475aa64042aac1663f03e841f, type: 3}
   m_PrefabInstance: {fileID: 1991025873}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1314221077 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2045064471869507928, guid: 038280c5f7acd2d4ab19e914b44b881c, type: 3}
+  m_PrefabInstance: {fileID: 1131679500}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74f695ae39e9204da1b1e12a253091b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1330673981
 GameObject:
   m_ObjectHideFlags: 0
@@ -5528,7 +5633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1797176599
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6707,6 +6812,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2095311212754055603, guid: d91ceb9bc27d86a4989ad8dcce909b51, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352448}
+    - target: {fileID: 2095311212754055607, guid: d91ceb9bc27d86a4989ad8dcce909b51, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 238064655}
     - target: {fileID: 2095311212754055612, guid: d91ceb9bc27d86a4989ad8dcce909b51, type: 3}
       propertyPath: m_Size.y
       value: 1.2497759
@@ -6721,7 +6834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2095311212754055614, guid: d91ceb9bc27d86a4989ad8dcce909b51, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d91ceb9bc27d86a4989ad8dcce909b51, type: 3}
@@ -7300,7 +7413,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141085762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4, y: -1.61, z: 0}
+  m_LocalPosition: {x: -0.31, y: -1.16, z: 0}
   m_LocalScale: {x: 1, y: 1.1227, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7355,9 +7468,13 @@ MonoBehaviour:
   flyingSpeed: 10
   dashDistance: 15
   canFly: 0
+  flyingDuration: 0
+  flyingStartTime: 0
   startingTime: 2
   timerActive: 0
   player: {fileID: 2141085762}
+  jumpSound: {fileID: 8300000, guid: 6709d58531145df4ba20b0805e73b2d1, type: 3}
+  walkSound: {fileID: 8300000, guid: e8f66137a5e44894896bf5bac3fff699, type: 3}
 --- !u!50 &2141085767
 Rigidbody2D:
   serializedVersion: 4

@@ -21,7 +21,9 @@ public class playerMovement : MonoBehaviour
 
     //flying duration variables
     public bool canFly;
-    //private bool isFlying;
+    private bool isFlying;
+    public float flyingDuration;
+    public float flyingStartTime;
     private float currentTime = 0f;
     [SerializeField]private float startingTime = 5f;
     public bool timerActive = false;
@@ -34,10 +36,18 @@ public class playerMovement : MonoBehaviour
     private float dashingCooldown = 1f;
 
     //jump variables
-    private bool hasJumped = true;
-
+    private bool hasJumped = false;
+ 
+    //mana system
     [SerializeField] GameObject player;
     Mana mana;
+
+    //audio
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip walkSound;
+
+
+    private bool isMoving;
 
     private void Awake()
     {
@@ -48,9 +58,9 @@ public class playerMovement : MonoBehaviour
         currentTime = startingTime;
         timerActive = true;
         mana = player.GetComponent<Mana>();
-        
+    
     }
-   
+
     private void Update()
     {
          
@@ -69,7 +79,7 @@ public class playerMovement : MonoBehaviour
             {
                 
                 currentTime -= 1 * Time.deltaTime;
-                //Debug.Log(currentTime);
+                Debug.Log(currentTime);
             }
             else{
             currentTime = 0;
@@ -83,19 +93,39 @@ public class playerMovement : MonoBehaviour
         
         //flip player when moving left/right
         if (horizontalInput > 0.01f)
+        {
             transform.localScale = Vector3.one;
+            isMoving = true;
+        }
         else if (horizontalInput < -0.01f)
+        {
             transform.localScale = new Vector3(-1,1,1);
+        }
+        else if (isMoving) {
+            //SoundManager.instance.PlaySound(walkSound);
+        }
+        else{
+            isMoving = false;
+        }
+
+
         //jump prompts
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded())
+        if(Input.GetButtonDown("Jump") && isGrounded())
             Jump();
+            
         //fly prompts
-        if(Input.GetKey(KeyCode.W) && mana.currentMana > 0 && !isGrounded() && hasJumped == true && canFly == true )
+        if(Input.GetButton("Fly") && mana.currentMana > 0 && !isGrounded() && hasJumped == true && canFly == true )
             {   
-                //isFlying = true;
-                
-                //Debug.Log(currentTime);
+                if(isFlying == false)
+                {
+                    currentTime = 2f;
+                    timerActive = true;
+                    isFlying = true;
+                    
+                }
                 fly();
+                //Debug.Log(currentTime);
+                
             }
             
         // dash conditions/prompts
@@ -120,16 +150,15 @@ public class playerMovement : MonoBehaviour
 
     public void Jump()
     {
-        if(!onWall())
+        bool grounded = isGrounded();
+        if(grounded && !onWall())
         {
-        hasJumped = false;
-        body.velocity = new Vector2(body.velocity.x, speed);
-        anim.SetTrigger("Jump");
-        hasJumped = true;
-        canFly = true;
-        }
-
-
+            SoundManager.instance.PlaySound(jumpSound);
+            body.velocity = new Vector2(body.velocity.x, speed);
+            anim.SetTrigger("Jump");
+            canFly = true;
+            hasJumped = true;
+        }     
     }
 
     public void fly()
@@ -138,25 +167,23 @@ public class playerMovement : MonoBehaviour
         {
             canFly = false;
         }
+        
 
-        currentTime = 2f;
-        timerActive = true;
-        //Debug.Log(currentTime);
+        if(timerActive)
+        {
+            
+            if(isFlying)
+            {
+                body.velocity = new Vector2(body.velocity.x, 5);
+            }
 
+            
+        }else{
+            isFlying = false;
+        }
 
-        // if(isFlying == true && Input.GetKey(KeyCode.W) )
-        // {
-        // currentTime = 2f;
-        // timerActive = true;
-        // Debug.Log(currentTime);
-
-        // }
-        // isFlying = false;
-
-
-        body.velocity = new Vector2(body.velocity.x, 5);
-        //anim.SetTrigger("Fly");
-        //isFlying = false;
+        
+        Debug.Log("fly: " + currentTime);
         
     }
 
