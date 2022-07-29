@@ -46,7 +46,7 @@ public class playerMovement : MonoBehaviour
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip walkSound;
 
-
+    PauseMenu PauseMenu;
     private bool isMoving;
 
     private void Awake()
@@ -58,6 +58,7 @@ public class playerMovement : MonoBehaviour
         currentTime = startingTime;
         timerActive = true;
         mana = player.GetComponent<Mana>();
+        PauseMenu = player.GetComponent<PauseMenu>();
     
     }
 
@@ -92,12 +93,12 @@ public class playerMovement : MonoBehaviour
         }
         
         //flip player when moving left/right
-        if (horizontalInput > 0.01f)
+        if (horizontalInput > 0.01f && PauseMenu.isPaused == false)
         {
             transform.localScale = Vector3.one;
             isMoving = true;
         }
-        else if (horizontalInput < -0.01f)
+        else if (horizontalInput < -0.01f && PauseMenu.isPaused == false)
         {
             transform.localScale = new Vector3(-1,1,1);
         }
@@ -129,12 +130,12 @@ public class playerMovement : MonoBehaviour
             }
             
         // dash conditions/prompts
-        if(Input.GetKey(KeyCode.LeftShift) && canDash && !isGrounded() && hasJumped == true)
+        if(Input.GetButton("Dash") && canDash && !isGrounded() && hasJumped == true)
         {
             StartCoroutine(Dash());
         }
         //Set animator parameters
-        anim.SetBool("Run", horizontalInput != 0);
+        anim.SetBool("Run", horizontalInput != 0 && PauseMenu.isPaused == false);
         anim.SetBool("Grounded", isGrounded());
 
         
@@ -153,7 +154,10 @@ public class playerMovement : MonoBehaviour
         bool grounded = isGrounded();
         if(grounded && !onWall())
         {
-            SoundManager.instance.PlaySound(jumpSound);
+            if(PauseMenu.isPaused == false){
+                SoundManager.instance.PlaySound(jumpSound);
+            }
+
             body.velocity = new Vector2(body.velocity.x, speed);
             anim.SetTrigger("Jump");
             canFly = true;
