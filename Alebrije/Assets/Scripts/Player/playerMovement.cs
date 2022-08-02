@@ -178,6 +178,7 @@ public class playerMovement : MonoBehaviour
             
             if(isFlying)
             {
+                anim.SetTrigger("Fly");
                 body.velocity = new Vector2(body.velocity.x, 5);
             }
 
