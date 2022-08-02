@@ -5529,7 +5529,7 @@ Transform:
   - {fileID: 505385311}
   - {fileID: 1763774504}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1526146227
 GameObject:
@@ -8991,7 +8991,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2141085765
 BoxCollider2D:
@@ -9041,9 +9041,13 @@ MonoBehaviour:
   flyingSpeed: 10
   dashDistance: 15
   canFly: 0
+  flyingDuration: 0
+  flyingStartTime: 0
   startingTime: 2
   timerActive: 0
   player: {fileID: 0}
+  jumpSound: {fileID: 0}
+  walkSound: {fileID: 0}
 --- !u!50 &2141085767
 Rigidbody2D:
   serializedVersion: 4
