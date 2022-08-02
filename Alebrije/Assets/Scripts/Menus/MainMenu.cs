@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("LatestUpdate");
+        SceneManager.LoadScene("game");
     }
     
      public void Settings()

@@ -6865,7 +6865,7 @@ MonoBehaviour:
   flyingStartTime: 0
   startingTime: 2
   timerActive: 0
-  player: {fileID: 0}
+  player: {fileID: 557435484}
   jumpSound: {fileID: 0}
   walkSound: {fileID: 0}
 --- !u!50 &557435487
