@@ -9,6 +9,7 @@ public class Flower : MonoBehaviour
     playerMovement PlayerMovement;
     [SerializeField] GameObject player;
     Mana mana;
+    Health playerHealth;
 
     private float currentTime = 0f;
     public bool timerActive = false;
@@ -21,6 +22,7 @@ public class Flower : MonoBehaviour
         PlayerMovement = player.GetComponent<playerMovement>();
         currentHealth = startingHealth;
         mana = player.GetComponent<Mana>();
+        playerHealth = player.GetComponent<Health>();
     }
 
     private void Update()
@@ -31,7 +33,6 @@ public class Flower : MonoBehaviour
             {
                 
                 currentTime -= 1 * Time.deltaTime;
-                //Debug.Log(currentTime);
             }
             else{
             currentTime = 0;        
@@ -48,6 +49,7 @@ public class Flower : MonoBehaviour
         if(currentHealth > 0)
         {
         mana.AddMana(1);
+        playerHealth.AddHealth(1);
         SoundManager.instance.PlaySound(pollinateSound); 
         // Since there is no animation for pollinating yet, I am just going to comment out the animation trigger for it.
         //anim.SetTrigger("Pollinate");

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
+    [SerializeField] private float startingMana;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject enemy;
 
@@ -31,11 +32,11 @@ public class Health : MonoBehaviour
         else {
             if(!dead)
             {
-                //foreach (Behaviour component in components)
-                    //component.enabled = false;
+                foreach (Behaviour component in components)
+                    component.enabled = false;
                 
-                //anim.SetTrigger("Die");
-                //anim.SetBool("Grounded", true);
+                anim.SetTrigger("Die");
+                anim.SetBool("Grounded", true);
                 if (GetComponent<playerMovement>() != null)
                 GetComponent<playerMovement>().enabled = false;
                 dead = true;
@@ -61,8 +62,8 @@ public class Health : MonoBehaviour
     {
         dead = false;
         AddHealth(startingHealth);
-        //anim.ResetTrigger("Die");
-        //anim.Play("Idle");
+        anim.ResetTrigger("Die");
+        anim.Play("idle");
         GetComponent<playerMovement>().enabled = true;
 
         

@@ -7,10 +7,12 @@ public class PlayerRespawn : MonoBehaviour
     [SerializeField] private AudioClip checkpointSound;
     private Transform currentCheckpoint;
     private Health playerHealth;
+    private Mana playerMana;
 
     private void Awake()
     {
         playerHealth = GetComponent<Health>();
+        playerMana = GetComponent<Mana>();
     }
 
 
@@ -18,6 +20,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         transform.position = currentCheckpoint.position;
         playerHealth.Respawn(); 
+        playerMana.Respawn(); 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
