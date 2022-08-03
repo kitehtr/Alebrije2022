@@ -7,7 +7,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.DA949528" = "store"
+	"last_search.DA949528" = "animation"
 	"OpenInspectorPreview.DA949528" = "0"
 	"currentGroup.DA949528" = "all"
 	"last_search.EAB0C2BA" = "Free Asset - 2D Handcrafted Art "
@@ -59,6 +59,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"animation"
 	"Free Asset - 2D Handcrafted Art "
 ]
 searchItemFavorites = [
