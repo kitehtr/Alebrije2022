@@ -13,47 +13,24 @@ public class Mana : MonoBehaviour
     public float currentMana { get; private set;}
 
     playerMovement PlayerMovement;
-    //private Animator anim;
 
     private void Awake()
     {
         currentMana = startingMana;
         PlayerMovement = player.GetComponent<playerMovement>();
-        //anim = GetComponent<Animator>();
     }
 
     public void reduceMana(float _mana)
     {
         currentMana= Mathf.Clamp(currentMana - _mana, 0, startingMana);
-        
-        if(currentMana > 0 )
-        {
-            //anim.SetTrigger("Hurt");
-        }
-        // else {
-        //     if(!dead)
-        //     {
-        //         //foreach (Behaviour component in components)
-        //         //component.enabled = false;
-                
-        //         //anim.SetTrigger("Die");
-        //         //anim.SetBool("Grounded", true);
-        //         if (GetComponent<playerMovement>() != null)
-        //         GetComponent<playerMovement>().enabled = false;
-        //         dead = true;
-        //     }
-
-        // }
-       
     }
-    private void Update()
+
+    public void Respawn()
     {
-        // if(Input.GetKeyDown(KeyCode.E) && !PauseMenu.isPaused)
-        // {
-        //     AddMana(1);
-        // }
 
+        AddMana(startingMana);  
     }
+
     
     public void AddMana(float _value)
     {

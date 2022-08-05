@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Flower : MonoBehaviour
 {
@@ -15,12 +16,16 @@ public class Flower : MonoBehaviour
 
     [SerializeField] private AudioClip pollinateSound;
 
+    private Animator anim;
+    
+
 
     void Awake()
     {
         PlayerMovement = player.GetComponent<playerMovement>();
         currentHealth = startingHealth;
         mana = player.GetComponent<Mana>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -40,6 +45,11 @@ public class Flower : MonoBehaviour
         }
     }
 
+    public void EndGame()
+    {
+        SceneManager.LoadScene("endcredits");
+    }
+
 
     public void pollinate()
     {
@@ -47,6 +57,7 @@ public class Flower : MonoBehaviour
 
         if(currentHealth > 0)
         {
+
         mana.AddMana(1);
         SoundManager.instance.PlaySound(pollinateSound); 
         // Since there is no animation for pollinating yet, I am just going to comment out the animation trigger for it.
@@ -62,6 +73,7 @@ public class Flower : MonoBehaviour
             AddHealth(1);
             Debug.Log(currentHealth);
         }
+
 
     }
 

@@ -5,19 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 043d4d54a2154604fa38d847d6a5abda
   - enabled: 1
-    path: Assets/Scenes/LatestUpdate.unity
-    guid: cf5e98cc95bde4c4b874a4701b90f8e1
+    path: Assets/Scenes/jordonlevel.unity
+    guid: d7cf9e1fc9996a64ca867e331507f408
+  - enabled: 1
+    path: Assets/Scenes/endcredits.unity
+    guid: 4d8372ffcbe8f7b469add4617a61a750
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 18b4d10cef170254db5978b4df339ee7
-  - enabled: 1
-    path: Assets/Scenes/Test2.unity
-    guid: b1a519cf0ea4166408b24b6db8d5efad
   m_configObjects: {}

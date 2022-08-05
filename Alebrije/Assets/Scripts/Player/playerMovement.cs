@@ -156,7 +156,7 @@ public class playerMovement : MonoBehaviour
         if(grounded && !onWall())
         {
             if(PauseMenu.isPaused == false){
-                SoundManager.instance.PlaySound(jumpSound);
+                //SoundManager.instance.PlaySound(jumpSound);
             }
 
             body.velocity = new Vector2(body.velocity.x, speed);

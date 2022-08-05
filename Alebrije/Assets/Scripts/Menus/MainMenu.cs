@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene("jordonlevel");
     }
     
      public void Settings()
