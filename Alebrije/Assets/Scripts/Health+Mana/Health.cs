@@ -44,14 +44,7 @@ public class Health : MonoBehaviour
         }
        
     }
-    private void Update()
-    {
-        // if(Input.GetKeyDown(KeyCode.E) && !PauseMenu.isPaused)
-        // {
-        //     TakeDamage(1);
-        // }
-
-    }
+    
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0,  startingHealth);

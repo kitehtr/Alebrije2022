@@ -24,7 +24,7 @@ public class playerMovement : MonoBehaviour
     private bool isFlying;
     public float flyingDuration;
     public float flyingStartTime;
-    private float currentTime = 0f;
+    public float currentTime = 0f;
     [SerializeField]private float startingTime = 5f;
     public bool timerActive = false;
 
