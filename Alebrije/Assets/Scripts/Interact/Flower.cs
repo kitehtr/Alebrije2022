@@ -17,6 +17,13 @@ public class Flower : MonoBehaviour
     [SerializeField] private AudioClip pollinateSound;
 
     private Animator anim;
+
+    public FlowerHealth HealthBar;
+
+    //end controls 
+    public int flowersPollinated;
+    public bool Pollinated = false;
+    public int checker = 1;
     
 
 
@@ -24,8 +31,11 @@ public class Flower : MonoBehaviour
     {
         PlayerMovement = player.GetComponent<playerMovement>();
         currentHealth = startingHealth;
+        HealthBar.SetHealth(currentHealth,startingHealth);
         mana = player.GetComponent<Mana>();
         anim = GetComponent<Animator>();
+        flowersPollinated = 10;
+
     }
 
     private void Update()
@@ -36,7 +46,6 @@ public class Flower : MonoBehaviour
             {
                 
                 currentTime -= 1 * Time.deltaTime;
-                //Debug.Log(currentTime);
             }
             else{
             currentTime = 0;        
@@ -47,31 +56,44 @@ public class Flower : MonoBehaviour
 
     public void EndGame()
     {
-        SceneManager.LoadScene("endcredits");
+        if(flowersPollinated >= 10)
+        {
+            SceneManager.LoadScene("endcredits");
+        }
+
     }
 
 
     public void pollinate()
     {
-        Debug.Log(currentHealth);
-
+ 
         if(currentHealth > 0)
         {
-
         mana.AddMana(1);
         SoundManager.instance.PlaySound(pollinateSound); 
+        checker --;
+        Debug.Log(flowersPollinated);
+        //Debug.Log(checker);
+
+        
+        //Debug.Log(flowersPollinated);
+        //Debug.Log(Pollinated);
         // Since there is no animation for pollinating yet, I am just going to comment out the animation trigger for it.
         //anim.SetTrigger("Pollinate");
         TakeDamage(1);
-        Debug.Log(currentHealth);
+
         timerActive = true;
         currentTime = 10f;
-        //Debug.Log(currentTime);
+        }
+        if(!Pollinated && checker == 0)
+        {
+            Pollinated = true;
+            flowersPollinated++;
+            Pollinated = false;
         }
         if(currentTime == 0 && currentHealth ==0)
         {
             AddHealth(1);
-            Debug.Log(currentHealth);
         }
 
 
@@ -80,11 +102,13 @@ public class Flower : MonoBehaviour
     public void TakeDamage(float _damage)
     {
         currentHealth= Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
+        HealthBar.SetHealth(currentHealth,startingHealth);
 
     }
 
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0,  startingHealth);
+        HealthBar.SetHealth(currentHealth,startingHealth);
     }
 }
