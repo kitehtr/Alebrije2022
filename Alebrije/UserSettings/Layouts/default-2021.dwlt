@@ -23,6 +23,9 @@ MonoBehaviour:
     y: 43.2
     width: 1536
     height: 780.8
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_ShowMode: 4
   m_Title: Game
@@ -39,6 +42,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -146,6 +150,8 @@ MonoBehaviour:
   m_EditorHideFlags: 1
 =======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -163,6 +169,9 @@ MonoBehaviour:
 =======
     width: 1536
     height: 780.8
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -209,9 +218,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 657.3333
     width: 1280
 =======
+=======
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
     y: 760.8
     width: 1536
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
@@ -231,6 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 10}
   - {fileID: 5}
@@ -258,6 +271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
+=======
+  - {fileID: 6}
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
 =======
   - {fileID: 6}
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
@@ -290,6 +306,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 0
 <<<<<<< HEAD
     width: 946
@@ -326,6 +343,35 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1172
+=======
+    y: 0
+    width: 1172
+    height: 730.8
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 17
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1172
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
     height: 432.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
@@ -358,6 +404,9 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,6 +430,9 @@ MonoBehaviour:
 =======
     width: 881.6
     height: 432.8
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -456,6 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
@@ -601,6 +654,9 @@ MonoBehaviour:
 =======
   m_MinSize: {x: 200, y: 200}
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
+  m_MinSize: {x: 200, y: 200}
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
@@ -609,15 +665,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 946
     y: 72.66667
     width: 333
     height: 606.3333
 =======
+=======
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
     x: 290.4
     y: 73.6
     width: 879.6
     height: 411.8
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -716,6 +778,9 @@ MonoBehaviour:
     y: 73.6
     width: 289.4
     height: 411.8
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -724,15 +789,21 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 989.3334}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 188bffff1a8cffffeca9fffff4adffff78aeffff9cbaffff52bcffffaac3ffffd0c4fffffac5ffff16c9ffff6aceffff3ccfffff4ad5ffffa0d7ffff4ae7ffffd0f5ffff2efbffff4276000044770000beaf0000cab000000cb60000e61e0100681f0100e03b0100083c01008c4101009e60010020610100c6640100ee640100fa650100d0690100726a010026740100d48b0100568c0100cc8c0100548d01000890010026940100ca9501001c9701005c3202008233020030340200143502003c350200503602002e39020050390200c0390200303a02009c3a0200a03a0200d63a0200da3e0200ee400200a0440200
 =======
+=======
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 9cdbffff
       m_LastClickedID: -9316
       m_ExpandedIDs: a2dbffffb4dbffff26f7ffff2efbffffb86200004c6300007463000080640000be6800004a6b0000746d0000306f0000de700000
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -787,6 +858,9 @@ MonoBehaviour:
     y: 73.6
     width: 879.6
     height: 411.8
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1012,9 +1086,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -61.21499, y: 4.6482854, z: -0.016734492}
     speed: 2
     m_Value: {x: -61.21499, y: 4.6482854, z: -0.016734492}
+=======
+    m_Target: {x: -137.42973, y: 11.201962, z: 0.7221896}
+    speed: 2
+    m_Value: {x: -137.42973, y: 11.201962, z: 0.7221896}
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
 =======
     m_Target: {x: -137.42973, y: 11.201962, z: 0.7221896}
     speed: 2
@@ -1071,9 +1151,15 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 9.449172
     speed: 2
     m_Value: 9.449172
+=======
+    m_Target: 40.233566
+    speed: 2
+    m_Value: 40.233566
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
 =======
     m_Target: 40.233566
     speed: 2
@@ -1124,20 +1210,27 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 290
     y: 72.66667
     width: 654
     height: 359.66666
 =======
+=======
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
     x: 0
     y: 506.4
     width: 1171
     height: 277
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -1205,6 +1298,8 @@ MonoBehaviour:
   m_RenderTexture: {fileID: 0}
 --- !u!114 &17
 =======
+=======
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -1318,6 +1413,9 @@ MonoBehaviour:
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &16
+<<<<<<< HEAD
+>>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
+=======
 >>>>>>> parent of 5df68f2 (Merge branch 'master' of https://github.com/keithwahhhhhhhh/Alebrije2022)
 MonoBehaviour:
   m_ObjectHideFlags: 52
