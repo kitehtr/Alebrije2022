@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Weapon Sprite Library Asset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Item
+    m_Hash: -1087796704
+    m_CategoryList:
+    - m_Name: Arrow
+      m_Hash: 435601722
+      m_Sprite: {fileID: 21300000, guid: 1c2969e92198a44c898ff5e3a14d4c31, type: 3}
+    - m_Name: Axe
+      m_Hash: 1411864780
+      m_Sprite: {fileID: 21300000, guid: e33d014a646ef44a8b301a004c1c908f, type: 3}
+    - m_Name: Bow
+      m_Hash: -1604644021
+      m_Sprite: {fileID: 21300000, guid: 7ae9f5cd955134dfaa486ffcb8610fcf, type: 3}
+    - m_Name: Bukler
+      m_Hash: -921982769
+      m_Sprite: {fileID: 21300000, guid: 486210d831baf4d688c000291b729f5c, type: 3}
+    - m_Name: Dagger
+      m_Hash: -860804407
+      m_Sprite: {fileID: 21300000, guid: 630c8bfc03af849bbabf23df5888e062, type: 3}
+    - m_Name: Katana
+      m_Hash: 478971082
+      m_Sprite: {fileID: 21300000, guid: 404afdbf3c55348048b856c2c4a4d403, type: 3}
+    - m_Name: Mace
+      m_Hash: 1915179864
+      m_Sprite: {fileID: 21300000, guid: f96a2264e972740cf92ecd4d077ca7e4, type: 3}
+    - m_Name: Ploarm
+      m_Hash: -439061557
+      m_Sprite: {fileID: 21300000, guid: ba2e2574b212648d190c7a4b4fb246db, type: 3}
+    - m_Name: Rod
+      m_Hash: 952365541
+      m_Sprite: {fileID: 21300000, guid: ddf68869dd58b47938eb6b6b6714848b, type: 3}
+    - m_Name: Shield
+      m_Hash: 423614430
+      m_Sprite: {fileID: 21300000, guid: e23f10d75142e48798f2cc21a23f9063, type: 3}
+    - m_Name: Spear
+      m_Hash: 1583325607
+      m_Sprite: {fileID: 21300000, guid: 5c846ef122ac445eebea4157a24aa3a0, type: 3}
+    - m_Name: Staff
+      m_Hash: -2085626730
+      m_Sprite: {fileID: 21300000, guid: eff38b551b2c4474f8719f9707c5b4bd, type: 3}
+    - m_Name: Sword
+      m_Hash: 1529145355
+      m_Sprite: {fileID: 21300000, guid: af35b6c39fc944fd5b0c55d9075360cd, type: 3}
+    - m_Name: Hammer
+      m_Hash: -648442112
+      m_Sprite: {fileID: 21300000, guid: cb2fa48106c49443fa9e7dfed2793fc7, type: 3}
+    - m_Name: Trident
+      m_Hash: -831508033
+      m_Sprite: {fileID: 21300000, guid: 9f7c4071851994895b997e45af0ac0d7, type: 3}
+    - m_Name: Cub
+      m_Hash: 2087282508
+      m_Sprite: {fileID: 21300000, guid: 4f666c89024644aeca3971001134d76d, type: 3}
+    - m_Name: Empty
+      m_Hash: -1459219776
+      m_Sprite: {fileID: 21300000, guid: 234300cad7b0742dab90a77dacbe4dfa, type: 3}

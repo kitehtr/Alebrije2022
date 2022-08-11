@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Rat Sprite Library Asset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 20e9337cd7e7b48f6bb1c96acfa0b2b0, type: 3}
+  - m_Name: Ear
+    m_Hash: 1274928335
+    m_CategoryList:
+    - m_Name: Back ear
+      m_Hash: 1864010243
+      m_Sprite: {fileID: 21300000, guid: 11268c8ac40784eda9f3031fda956c2b, type: 3}
+    - m_Name: Front ear
+      m_Hash: -899350300
+      m_Sprite: {fileID: 21300000, guid: 39363199be9f048d29f6ef797e6fef7a, type: 3}
+  - m_Name: Eye
+    m_Hash: 1245036881
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 901351984a7024e2b83ff2fe4af4ccde, type: 3}
+    - m_Name: Half
+      m_Hash: 1533603359
+      m_Sprite: {fileID: 21300000, guid: ab9cd2b0a30e54699a30446e2f0c9bf4, type: 3}
+    - m_Name: Close
+      m_Hash: -759124288
+      m_Sprite: {fileID: 21300000, guid: e24e506a0eb47408eb80020a5cc97bcf, type: 3}
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 1b14c7532e6f645a58887bdfb8a57a0b, type: 3}
+    - m_Name: Attack1
+      m_Hash: -47317214
+      m_Sprite: {fileID: 21300000, guid: 354843bee52594f3a85cb4fdf2a6efeb, type: 3}
+    - m_Name: Attack2
+      m_Hash: 1680125592
+      m_Sprite: {fileID: 21300000, guid: 917010d2d54eb4d77ab1e2935c47582b, type: 3}
+  - m_Name: Leg
+    m_Hash: 1302185647
+    m_CategoryList:
+    - m_Name: Front leg
+      m_Hash: -872080764
+      m_Sprite: {fileID: 21300000, guid: 9113dc10d47e44ae8b4ea3f959842adf, type: 3}
+    - m_Name: Back leg
+      m_Hash: 1769640035
+      m_Sprite: {fileID: 21300000, guid: 9f642727b16034188a6c08992900ce20, type: 3}
+  - m_Name: Tail
+    m_Hash: -603645085
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: bd02ec145ee9f4a68bbefc5b733cd379, type: 3}

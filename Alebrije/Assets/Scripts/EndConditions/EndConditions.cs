@@ -10,6 +10,7 @@ public class EndConditions : MonoBehaviour
     
     public Flower flower;
     List<GameObject> objectsInScene;
+    public int flowersPollinated = 0;
     
     
     void Start()
@@ -37,7 +38,7 @@ public class EndConditions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int flowersPollinated = 0;
+ 
         foreach(GameObject go in objectsInScene )
         {
             if(go.GetComponent<Flower>() == null)
@@ -49,7 +50,7 @@ public class EndConditions : MonoBehaviour
             if(go.GetComponent<Flower>().Pollinated)
             {
             flowersPollinated++;
-            if(flowersPollinated >= 2)
+            if(flowersPollinated >= 10)
             {
             SceneManager.LoadScene("endcredits");
             }

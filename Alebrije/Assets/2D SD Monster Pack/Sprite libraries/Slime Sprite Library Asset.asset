@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Slime Sprite Library Asset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: a6e42763b6923431f8d016df2a9ce8fa, type: 3}
+    - m_Name: Down
+      m_Hash: -1127399675
+      m_Sprite: {fileID: 21300000, guid: 6986a4f982b9443cf8676c27e176dd0d, type: 3}
+    - m_Name: Up
+      m_Hash: -703542574
+      m_Sprite: {fileID: 21300000, guid: 653967ca5b3fe490f806d4b7b4d87c83, type: 3}
+  - m_Name: Bubble
+    m_Hash: -326306623
+    m_CategoryList:
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 21300000, guid: ef922fed9725f4230be038d1d73e57ab, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 21300000, guid: 704f59750ae234c89a834acd30236807, type: 3}
+  - m_Name: Drip
+    m_Hash: -2038624870
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: f72ffd30650714fb5a792533e5df19e5, type: 3}
+    - m_Name: Ground
+      m_Hash: -1605138850
+      m_Sprite: {fileID: 21300000, guid: cc7781d3185ee4d3fabf1b1c1e9d9501, type: 3}
+  - m_Name: Face
+    m_Hash: -1524181927
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 39534f4dbb63849c4bcbbb320d503961, type: 3}
+    - m_Name: Sad
+      m_Hash: -1484605860
+      m_Sprite: {fileID: 21300000, guid: 87bd297e9741a49fdaea72f070ac5623, type: 3}
