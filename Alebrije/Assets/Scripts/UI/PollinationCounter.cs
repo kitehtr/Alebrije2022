@@ -6,7 +6,6 @@ using TMPro;
 public class PollinationCounter : MonoBehaviour
 {
     [SerializeField] private Flower Flower;
-    [SerializeField] private Flower Flower2;
     [SerializeField] private EndConditions EndConditions;
     public TextMeshProUGUI text;
     
@@ -17,6 +16,6 @@ public class PollinationCounter : MonoBehaviour
 
     void Update()
     {
-        text.text = ("Flowers Pollinated: ")+ EndConditions.flowersPollinated.ToString();
+        //text.text = ("Flowers Pollinated: ")+ EndConditions.flowersPollinated.ToString();
     }
 }

@@ -31,8 +31,6 @@ public class Flower : MonoBehaviour
         currentHealth = startingHealth;
         HealthBar.SetHealth(currentHealth,startingHealth);
         mana = player.GetComponent<Mana>();
-        anim = GetComponent<Animator>();
-        //flowersPollinated = 10;
 
     }
 

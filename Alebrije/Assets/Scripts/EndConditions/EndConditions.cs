@@ -10,7 +10,7 @@ public class EndConditions : MonoBehaviour
     
     public Flower flower;
     List<GameObject> objectsInScene;
-    public int flowersPollinated = 0;
+
     
     
     void Start()
@@ -38,7 +38,7 @@ public class EndConditions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
- 
+        int flowersPollinated = 0;
         foreach(GameObject go in objectsInScene )
         {
             if(go.GetComponent<Flower>() == null)
