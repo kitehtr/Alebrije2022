@@ -10,9 +10,14 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("jordonlevel");
     }
     
-     public void Settings()
+    public void Settings()
     {
         SceneManager.LoadScene("Settings");
+    }
+
+    public void Controls()
+    {
+        SceneManager.LoadScene("Controls");
     }
 
     public void QuitGame()
