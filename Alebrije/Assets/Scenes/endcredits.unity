@@ -837,7 +837,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Melissa Romo Martinez \r\n\r\nJose Martinez \r\n\r\nAce Roman\r\n\r\nMelissa
     Romo Martinez\r\n\r\nKeith Tran\r\n\r\nJordon Dabney \r\n\r\nJordon Dabney \r\n\r\nChiedozie
-    Ibe\r\n\r\nAny Keener \r\nConant Fong\r\nBenjamin Lau\nAkil Hooper\n"
+    Ibe\r\n\r\nAny Keener \r\nConant Fong\r\nBenjamin Lau\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -973,7 +973,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Original Creator\n\nProject Manager\r\n\r\nCharacter Artist\n\nEnvironment
-    Artist\t\t\t\r\n\t\r\nProgrammer\n\nNarrative Designer\t\t\t\t\r\n\r\nGameplay
+    Artist\t\t\t\r\n\t\r\nProgrammer\t\t\t\t\t\r\n\r\nNarrative Designer\t\t\t\t\r\n\r\nGameplay
     Designer\n\nSound Designer\t\t\t\t\r\n\r\nSpecial thanks to\t"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
