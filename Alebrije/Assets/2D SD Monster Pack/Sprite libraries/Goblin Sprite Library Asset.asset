@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Goblin Sprite Library Asset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Bhand
+    m_Hash: -499687001
+    m_CategoryList:
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 21300000, guid: 49a7e9ee51fcc42338f3d31410f531eb, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 21300000, guid: e4cc607aa191e4d89a430dc2302fb3da, type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 5544ac3cade28478aa348ea9a00241b4, type: 3}
+  - m_Name: Face
+    m_Hash: -1524181927
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: b452eee1cfbf94a408d599d1cd350998, type: 3}
+    - m_Name: Angry
+      m_Hash: 16779677
+      m_Sprite: {fileID: 21300000, guid: 2a52167e2fc7346a3805b7d859fa71f9, type: 3}
+    - m_Name: Sad
+      m_Hash: -1484605860
+      m_Sprite: {fileID: 21300000, guid: c40c0ed65ff864260a15ebd65c08c20f, type: 3}
+  - m_Name: Fhand
+    m_Hash: 397920103
+    m_CategoryList:
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 21300000, guid: 00bad97b8ebe240e3ab83e2a2436a376, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 21300000, guid: 875a3fad512374c1ba3cacd2ce75cd4a, type: 3}
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: c1348526de6e94f09942a1fcd358225e, type: 3}
+  - m_Name: Leg
+    m_Hash: 1302185647
+    m_CategoryList:
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 21300000, guid: b1d446ce858a44d65941c55d57a30cf3, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 21300000, guid: d5dcc72cfd7d346fc8b17adf1848d9c3, type: 3}
+    - m_Name: 3
+      m_Hash: 1842515611
+      m_Sprite: {fileID: 21300000, guid: dab963791f01d41e899af96d2a7b715b, type: 3}
+    - m_Name: 4
+      m_Hash: -206169288
+      m_Sprite: {fileID: 21300000, guid: 7950ed36a9cbc404fa48f2c61aa3cdd2, type: 3}

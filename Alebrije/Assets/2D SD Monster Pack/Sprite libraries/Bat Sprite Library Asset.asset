@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Bat Sprite Library Asset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 1b9f9bf7673254e4e811bdcda4a68f9f, type: 3}
+  - m_Name: Eye
+    m_Hash: 1245036881
+    m_CategoryList:
+    - m_Name: Open
+      m_Hash: 71445658
+      m_Sprite: {fileID: 21300000, guid: eb62a94e245c94c51bd010b39aa093fe, type: 3}
+    - m_Name: Close
+      m_Hash: -759124288
+      m_Sprite: {fileID: 21300000, guid: b72a600576c0b4a5fbc26665653d9b37, type: 3}
+  - m_Name: Nose
+    m_Hash: 550421485
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 57e7492c2e3de4e43b46edec3b993b35, type: 3}
+  - m_Name: Mouth
+    m_Hash: 1594127251
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 6ba7ee89031644cef82cab24b9d7f393, type: 3}
+  - m_Name: Teeth
+    m_Hash: 1097844084
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 59216063351a14699a77255b306cbe7d, type: 3}
+  - m_Name: Wings
+    m_Hash: -1413060733
+    m_CategoryList:
+    - m_Name: Idle-up
+      m_Hash: -1116203303
+      m_Sprite: {fileID: 21300000, guid: 3b09dbe2cb57848beb88fc8ed960e8b4, type: 3}
+    - m_Name: Idle-down
+      m_Hash: -799272103
+      m_Sprite: {fileID: 21300000, guid: 53975bfdc22fe4e418cfde2d5cabc66c, type: 3}
+    - m_Name: Sleep1
+      m_Hash: 1528772224
+      m_Sprite: {fileID: 21300000, guid: 6b8a2f79616584d77b0bf12453ae9dac, type: 3}
+    - m_Name: Sleep2
+      m_Hash: -1038719174
+      m_Sprite: {fileID: 21300000, guid: e5ca6a4ec4e7f4cfd9ec17e6736fe757, type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: 4a660eec02e0c46c7809448c28790aad, type: 3}
+    - m_Name: Sleep
+      m_Hash: -822940248
+      m_Sprite: {fileID: 21300000, guid: de7dab0e90c3747de95ea90433cbab08, type: 3}

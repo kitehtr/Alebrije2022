@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Cyclope Sprite Library Asset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Bhand
+    m_Hash: -499687001
+    m_CategoryList:
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 21300000, guid: cb9f58509e1d7449b9eda09b008352d7, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 21300000, guid: 8220a5e9e85074e4e963d33399ed0174, type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: b381a6698945f4d8a8477a7ae789242a, type: 3}
+  - m_Name: Face
+    m_Hash: -1524181927
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: b300e12c9c3594454b5b89e9ea59fbe7, type: 3}
+    - m_Name: Angry
+      m_Hash: 16779677
+      m_Sprite: {fileID: 21300000, guid: 5e9bc29cb59d941db86748623be0645a, type: 3}
+    - m_Name: Sad
+      m_Hash: -1484605860
+      m_Sprite: {fileID: 21300000, guid: 0f4594b4cc3a940f9b0ca453e92c1d36, type: 3}
+  - m_Name: Fhand
+    m_Hash: 397920103
+    m_CategoryList:
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 21300000, guid: 907ee499611cc4804834d8c4d5bc804d, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 21300000, guid: 76dab5b1b6b364be5b0dde964047bbb9, type: 3}
+  - m_Name: Weapon
+    m_Hash: 1855955664
+    m_CategoryList:
+    - m_Name: Hammer
+      m_Hash: -648442112
+      m_Sprite: {fileID: 21300000, guid: cb2fa48106c49443fa9e7dfed2793fc7, type: 3}
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Idle
+      m_Hash: 2081823275
+      m_Sprite: {fileID: 21300000, guid: da7d6d1d491e049da9b55920ee21b41c, type: 3}
+  - m_Name: Leg
+    m_Hash: 1302185647
+    m_CategoryList:
+    - m_Name: 1
+      m_Hash: -2082672713
+      m_Sprite: {fileID: 21300000, guid: 3a6594e1381d04f12b721bd3830ef005, type: 3}
+    - m_Name: 2
+      m_Hash: 450215437
+      m_Sprite: {fileID: 21300000, guid: 031d07a72a1dc4e81a1d784f25b963f4, type: 3}
+    - m_Name: 3
+      m_Hash: 1842515611
+      m_Sprite: {fileID: 21300000, guid: 541b50e48299d46d99be5e251221583c, type: 3}
+    - m_Name: 4
+      m_Hash: -206169288
+      m_Sprite: {fileID: 21300000, guid: f0763ba33b50347beba83ad7a988c4fa, type: 3}
