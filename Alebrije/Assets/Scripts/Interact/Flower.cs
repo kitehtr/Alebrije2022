@@ -21,7 +21,9 @@ public class Flower : MonoBehaviour
     public FlowerHealth HealthBar;
 
     //end controls 
+    public int flowersPollinated;
     public bool Pollinated = false;
+    public int checker = 1;
     
 
 
@@ -32,7 +34,7 @@ public class Flower : MonoBehaviour
         HealthBar.SetHealth(currentHealth,startingHealth);
         mana = player.GetComponent<Mana>();
         anim = GetComponent<Animator>();
-        //flowersPollinated = 10;
+        flowersPollinated = 10;
 
     }
 
@@ -54,10 +56,10 @@ public class Flower : MonoBehaviour
 
     public void EndGame()
     {
-        // if(flowersPollinated >= 10)
-        // {
-        //     SceneManager.LoadScene("endcredits");
-        // }
+        if(flowersPollinated >= 10)
+        {
+            SceneManager.LoadScene("endcredits");
+        }
 
     }
 
@@ -69,7 +71,8 @@ public class Flower : MonoBehaviour
         {
         mana.AddMana(1);
         SoundManager.instance.PlaySound(pollinateSound); 
-        //Debug.Log(flowersPollinated);
+        checker --;
+        Debug.Log(flowersPollinated);
         //Debug.Log(checker);
 
         
@@ -82,9 +85,11 @@ public class Flower : MonoBehaviour
         timerActive = true;
         currentTime = 10f;
         }
-        if(!Pollinated)
+        if(!Pollinated && checker == 0)
         {
             Pollinated = true;
+            flowersPollinated++;
+            Pollinated = false;
         }
         if(currentTime == 0 && currentHealth ==0)
         {

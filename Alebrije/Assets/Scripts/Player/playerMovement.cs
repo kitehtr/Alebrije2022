@@ -81,7 +81,7 @@ public class playerMovement : MonoBehaviour
             {
                 
                 currentTime -= 1 * Time.deltaTime;
-                //Debug.Log(currentTime);
+                Debug.Log(currentTime);
             }
             else{
             currentTime = 0;
@@ -190,7 +190,7 @@ public class playerMovement : MonoBehaviour
             anim.SetTrigger("Fall");
         }
 
-        //Debug.Log("fly: " + currentTime);
+        Debug.Log("fly: " + currentTime);
         
     }
 
