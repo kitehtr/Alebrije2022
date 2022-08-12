@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Controls.unity
     guid: fddf821a6d4e6814aa6331b6fca78e5a
+  - enabled: 1
+    path: Assets/Scenes/BeforeYouPlay.unity
+    guid: cb051dd105bfb114ea15f67b2db1201c
   m_configObjects: {}

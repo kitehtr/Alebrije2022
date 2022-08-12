@@ -5,14 +5,14 @@ using UnityEditor;
 using UnityEngine.SceneManagement;
 
 
+
 public class EndConditions : MonoBehaviour
 {
     
     public Flower flower;
     List<GameObject> objectsInScene;
+    public int flowerCounter;
 
-    
-    
     void Start()
     {
         
@@ -58,7 +58,7 @@ public class EndConditions : MonoBehaviour
             }
         }
         Debug.Log("Flowers pollinated "+ flowersPollinated);
-
+        flowerCounter = flowersPollinated;
 
     }
 }
