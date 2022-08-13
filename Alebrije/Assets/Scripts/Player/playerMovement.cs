@@ -45,7 +45,9 @@ public class playerMovement : MonoBehaviour
 
     //audio
     [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip landSound;
     [SerializeField] private AudioClip walkSound;
+    public AudioSource footsteps;
 
     PauseMenu PauseMenu;
     private bool isMoving;
@@ -65,7 +67,6 @@ public class playerMovement : MonoBehaviour
 
     private void Update()
     {
-         
         if (isDashing)
         {
             return;
@@ -97,18 +98,17 @@ public class playerMovement : MonoBehaviour
         if (horizontalInput > 0.01f && PauseMenu.isPaused == false)
         {
             transform.localScale = Vector3.one;
-            isMoving = true;
+            //isMoving = true;
+            //SoundManager.instance.PlaySound(walkSound);
         }
         else if (horizontalInput < -0.01f && PauseMenu.isPaused == false)
         {
             transform.localScale = new Vector3(-1,1,1);
-        }
-        else if (isMoving) {
             //SoundManager.instance.PlaySound(walkSound);
         }
-        else{
-            isMoving = false;
-        }
+
+
+
 
 
         //jump prompts
@@ -156,7 +156,7 @@ public class playerMovement : MonoBehaviour
         if(grounded && !onWall())
         {
             if(PauseMenu.isPaused == false){
-                //SoundManager.instance.PlaySound(jumpSound);
+               
             }
 
             body.velocity = new Vector2(body.velocity.x, speed);
@@ -164,7 +164,12 @@ public class playerMovement : MonoBehaviour
             canFly = true;
             hasJumped = true;
             anim.SetTrigger("Fall");
+   
         }     
+        if(grounded == true)
+        {
+            //SoundManager.instance.PlaySound(landSound);
+        }
     }
 
     public void fly()
@@ -189,8 +194,6 @@ public class playerMovement : MonoBehaviour
             isFlying = false;
             anim.SetTrigger("Fall");
         }
-
-        //Debug.Log("fly: " + currentTime);
         
     }
 

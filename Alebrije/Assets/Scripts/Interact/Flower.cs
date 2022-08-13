@@ -50,14 +50,6 @@ public class Flower : MonoBehaviour
         }
     }
 
-    public void EndGame()
-    {
-        // if(flowersPollinated >= 10)
-        // {
-        //     SceneManager.LoadScene("endcredits");
-        // }
-
-    }
 
 
     public void pollinate()
@@ -67,12 +59,6 @@ public class Flower : MonoBehaviour
         {
         mana.AddMana(1);
         SoundManager.instance.PlaySound(pollinateSound); 
-        //Debug.Log(flowersPollinated);
-        //Debug.Log(checker);
-
-        
-        //Debug.Log(flowersPollinated);
-        //Debug.Log(Pollinated);
         // Since there is no animation for pollinating yet, I am just going to comment out the animation trigger for it.
         //anim.SetTrigger("Pollinate");
         TakeDamage(1);

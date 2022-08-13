@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+//using UnityEditor;
 using UnityEngine.SceneManagement;
 
 
@@ -20,16 +20,16 @@ public class EndConditions : MonoBehaviour
 
         foreach (GameObject go in Resources.FindObjectsOfTypeAll(typeof(GameObject)) as GameObject[])
         {
-            if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
-            {
+            //if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+            //{
                 if(go.tag == "Flower")
                 {
                     objectsInScene.Add(go);
-                    Debug.Log("GameObject: "+ go.tag);
-                    Debug.Log("Flower: " + go.GetComponent<Flower>().Pollinated);
+                    //Debug.Log("GameObject: "+ go.tag);
+                    //Debug.Log("Flower: " + go.GetComponent<Flower>().Pollinated);
                 }
 
-            }
+            //}
 
         }
 
@@ -43,10 +43,10 @@ public class EndConditions : MonoBehaviour
         {
             if(go.GetComponent<Flower>() == null)
             {
-                Debug.Log("GameObject:" + go);
+                //Debug.Log("GameObject:" + go);
                 continue;
             }
-            Debug.Log("Flower: Update:" + go.GetComponent<Flower>().Pollinated + "flowers pollinated " + flowersPollinated);
+            //Debug.Log("Flower: Update:" + go.GetComponent<Flower>().Pollinated + "flowers pollinated " + flowersPollinated);
             if(go.GetComponent<Flower>().Pollinated)
             {
             flowersPollinated++;
@@ -57,7 +57,7 @@ public class EndConditions : MonoBehaviour
 
             }
         }
-        Debug.Log("Flowers pollinated "+ flowersPollinated);
+        //Debug.Log("Flowers pollinated "+ flowersPollinated);
         flowerCounter = flowersPollinated;
 
     }
