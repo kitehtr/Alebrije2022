@@ -10582,6 +10582,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1167485847}
+    - target: {fileID: 3708777935454960543, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: coolDown
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (15)

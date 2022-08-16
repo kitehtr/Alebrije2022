@@ -663,6 +663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 5
+  coolDown: 12
   player: {fileID: 0}
   timerActive: 0
   pollinateSound: {fileID: 8300000, guid: 45ec68f5b2a1f0043a30aa4f8fa484fe, type: 3}
