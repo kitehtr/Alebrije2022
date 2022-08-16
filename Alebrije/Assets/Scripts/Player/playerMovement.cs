@@ -11,8 +11,8 @@ public class playerMovement : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     
     //movment speeds
-    [SerializeField] public float flyingSpeed = 12f;
-    public float dashDistance = 15f;
+  
+    
 
     //grabbing reference from the player
     private Rigidbody2D body;
@@ -31,12 +31,9 @@ public class playerMovement : MonoBehaviour
     //air dashing variables
     private bool canDash = true;
     private bool isDashing;
-    private float dashingPower = 20f;
+    private float dashingPower = 30f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
-
-    //jump variables
-    private bool hasJumped = false;
 
  
     //mana system
@@ -59,7 +56,7 @@ public class playerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         currentTime = startingTime;
-        timerActive = true;
+        timerActive = false;
         mana = player.GetComponent<Mana>();
         PauseMenu = player.GetComponent<PauseMenu>();
     
@@ -116,7 +113,7 @@ public class playerMovement : MonoBehaviour
             Jump();
             
         //fly prompts
-        if(Input.GetButton("Fly") && mana.currentMana > 0 && !isGrounded() && hasJumped == true && canFly == true )
+        if(Input.GetButton("Fly") && mana.currentMana > 0 && !isGrounded() && canFly == true )
             {   
                 if(isFlying == false)
                 {
@@ -131,7 +128,7 @@ public class playerMovement : MonoBehaviour
             }
             
         // dash conditions/prompts
-        if(Input.GetButton("Dash") && canDash && !isGrounded() && hasJumped == true)
+        if(Input.GetButton("Dash") && canDash && !isGrounded())
         {
             StartCoroutine(Dash());
         }
@@ -162,7 +159,6 @@ public class playerMovement : MonoBehaviour
             body.velocity = new Vector2(body.velocity.x, speed);
             anim.SetTrigger("Jump");
             canFly = true;
-            hasJumped = true;
             anim.SetTrigger("Fall");
    
         }     
