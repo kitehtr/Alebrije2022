@@ -1298,7 +1298,8 @@ MonoBehaviour:
     Romo Martinez\r\t\t\r\n\t\r\n\t\tProgrammer: Keith Tran\n\n\t\tNarrative Designer:
     Jordon Dabney\t\t\t\t\r\n\t\tGameplay Designer: Jordon Dabney\n\n\t\tSound Designer:
     Chiedozie Ibe\r\t\t\t\r\n\r\n\t\tSpecial thanks to:  Any Keener \r\n\t\t\t\tConant
-    Fong\r\n\t\t\t\tBenjamin Lau\n\t\t\t\tAkil Hooper\t"
+    Fong\r\n\t\t\t\tBenjamin Lau\n\t\t\t\tAkil Hooper\t                                                   
+    \t\t\t\tChristian Maddie"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
   m_sharedMaterial: {fileID: -1221686893757436745, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
