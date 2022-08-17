@@ -67,3 +67,4 @@ MonoBehaviour:
     - m_Name: Idle
       m_Hash: 2081823275
       m_Sprite: {fileID: 21300000, guid: bd02ec145ee9f4a68bbefc5b733cd379, type: 3}
+  m_ModificationHash: 0

@@ -38,6 +38,8 @@ public class playerMovement : MonoBehaviour
     //jump variables
     private bool hasJumped = false;
 
+    private bool startedFlying = false;
+
  
     //mana system
     [SerializeField] GameObject player;
@@ -78,18 +80,22 @@ public class playerMovement : MonoBehaviour
         //count down timer
         if(timerActive)
         {
+            // startedFlying = true;
+            // if(startedFlying == true)
+            // {
+            //     mana.reduceMana(1);
+            //     startedFlying = false;
+            // }
             if(currentTime > 0)
             {
-                
                 currentTime -= 1 * Time.deltaTime;
-                //Debug.Log(currentTime);
             }
             else{
             currentTime = 0;
             timerActive = false;
-            canFly = false;
+            canFly = false;     
             mana.reduceMana(1);
-            
+
             }
             
         }
@@ -126,8 +132,6 @@ public class playerMovement : MonoBehaviour
                     
                 }
                 fly();
-                //Debug.Log(currentTime);
-                
             }
             
         // dash conditions/prompts

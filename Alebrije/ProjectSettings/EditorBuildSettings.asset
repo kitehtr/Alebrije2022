@@ -18,9 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Flow/Settings.unity
     guid: 18b4d10cef170254db5978b4df339ee7
   - enabled: 1
-    path: Assets/Scenes/Main Flow/Controls.unity
-    guid: fddf821a6d4e6814aa6331b6fca78e5a
-  - enabled: 1
     path: Assets/Scenes/Main Flow/BeforeYouPlay.unity
-    guid: cb051dd105bfb114ea15f67b2db1201c
+    guid: 746267cab2d83cb428c57695803d8d6e
+  - enabled: 1
+    path: Assets/Scenes/Main Flow/Controls.unity
+    guid: 7df1a83aa4cc49f418c4e6187490ccb2
   m_configObjects: {}

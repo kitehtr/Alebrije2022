@@ -185,8 +185,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
+  m_sharedMaterial: {fileID: -1221686893757436745, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -455,7 +455,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -823,10 +823,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 1, b: 0.78431374, a: 0}
+    m_HighlightedColor: {r: 0, g: 1, b: 0.78431374, a: 0.5882353}
+    m_PressedColor: {r: 0, g: 1, b: 0.78431374, a: 0.78431374}
+    m_SelectedColor: {r: 0, g: 1, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -956,8 +956,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Gameheads Summer Project 2022
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
+  m_sharedMaterial: {fileID: -1221686893757436745, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1220128894}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1714187742
@@ -1115,7 +1115,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1762647614
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1133,7 +1133,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 241.58197, y: 41}
+  m_AnchoredPosition: {x: 241.58197, y: 40}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1762647615
@@ -1160,8 +1160,8 @@ MonoBehaviour:
     Romo Martinez\r\n\r\nKeith Tran\r\n\r\nJordon Dabney \r\n\r\nJordon Dabney \r\n\r\nChiedozie
     Ibe\r\n\r\nAny Keener \r\nConant Fong\r\nBenjamin Lau\nAkil Hooper\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
+  m_sharedMaterial: {fileID: -1221686893757436745, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1270,7 +1270,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168.41803, y: 69.95195}
+  m_AnchoredPosition: {x: -181, y: 69.95195}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1825059956
@@ -1293,12 +1293,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Original Creator\n\nProject Manager\r\n\r\nCharacter Artist\n\nEnvironment
-    Artist\t\t\t\r\n\t\r\nProgrammer\n\nNarrative Designer\t\t\t\t\r\n\r\nGameplay
-    Designer\n\nSound Designer\t\t\t\t\r\n\r\nSpecial thanks to\t"
+  m_text: "\t\tOriginal Creator: Melissa Romo Martinez\n\n\t\tProject Manager: Jose
+    Martinez\n\n\t\tCharacter Artist: Ace Roman\r\n\n\t\tEnvironment Artist: Melissa
+    Romo Martinez\r\t\t\r\n\t\r\n\t\tProgrammer: Keith Tran\n\n\t\tNarrative Designer:
+    Jordon Dabney\t\t\t\t\r\n\t\tGameplay Designer: Jordon Dabney\n\n\t\tSound Designer:
+    Chiedozie Ibe\r\t\t\t\r\n\r\n\t\tSpecial thanks to:  Any Keener \r\n\t\t\t\tConant
+    Fong\r\n\t\t\t\tBenjamin Lau\n\t\t\t\tAkil Hooper\t"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
+  m_sharedMaterial: {fileID: -1221686893757436745, guid: ccee1097123ae304ebef0e98bbbe7c5e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1358,7 +1361,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 31.513718, z: -167.64594, w: -1279.5027}
+  m_margin: {x: -128.65369, y: 31.513718, z: -607.1398, w: -1279.5027}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
