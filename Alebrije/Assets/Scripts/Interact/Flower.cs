@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Flower : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
+    [SerializeField] private float coolDown;
     public float currentHealth { get; private set;}
     playerMovement PlayerMovement;
     [SerializeField] GameObject player;
@@ -41,12 +42,21 @@ public class Flower : MonoBehaviour
             if(currentTime > 0)
             {
                 
-                currentTime -= 1 * Time.deltaTime;
+                currentTime -= (1*Time.deltaTime);
             }
-            else{
-            currentTime = 0;        
+            else if (currentTime <= 0 && currentHealth < startingHealth)
+               
+            {
+                AddHealth(1);
+                currentTime = coolDown;
+                
             }
-            
+
+            else if(currentHealth >= startingHealth)
+            {
+                timerActive = false;
+            }
+
         }
     }
 
@@ -64,17 +74,13 @@ public class Flower : MonoBehaviour
         TakeDamage(1);
 
         timerActive = true;
-        currentTime = 10f;
+        currentTime = coolDown;
         }
         if(!Pollinated)
         {
             Pollinated = true;
         }
-        if(currentTime == 0 && currentHealth ==0)
-        {
-            AddHealth(1);
-        }
-
+        
 
     }
 
