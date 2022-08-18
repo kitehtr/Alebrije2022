@@ -384,6 +384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &5263924
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -731,6 +733,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &15899057
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -939,6 +943,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &22928485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1175,6 +1181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &27955189
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1411,6 +1419,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &36944688
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1733,6 +1743,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &43910695
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2209,6 +2221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &98195905
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2582,6 +2596,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &116807138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2756,6 +2772,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &125509560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2935,6 +2953,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &130000096
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3220,6 +3240,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &141085301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3624,6 +3646,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &165066572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3855,6 +3879,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &166929992
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4293,6 +4319,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &187345215
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6196,6 +6224,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &316609371
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6370,6 +6400,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &317617439
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6544,6 +6576,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &328706715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6816,6 +6850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &366905282
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7613,6 +7649,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &413198168
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7787,6 +7825,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &416364327
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8723,6 +8763,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &477920954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9458,6 +9500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &535334454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9717,6 +9761,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &566131454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10131,6 +10177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &620547912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10429,6 +10477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &631466893
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10883,6 +10933,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &650064022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11057,6 +11109,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &660600358
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11725,6 +11779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &702212678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11935,6 +11991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &733424755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12109,6 +12167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &743386259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12283,6 +12343,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &744948565
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12457,6 +12519,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &747439770
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12787,6 +12851,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &786302617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12961,6 +13027,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &791843738
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13135,6 +13203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &791960755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13672,6 +13742,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &823686339
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14546,6 +14618,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &880761912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14720,6 +14794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &889554142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15354,6 +15430,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &910750951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15873,6 +15951,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &950454233
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16317,6 +16397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &965991906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16548,6 +16630,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &977209968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16921,6 +17005,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &991452382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17428,6 +17514,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1005003071
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17664,6 +17752,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1011314502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18235,6 +18325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1069139055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18520,6 +18612,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1085933765
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18891,6 +18985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1103442840
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19257,6 +19353,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1120151562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19431,6 +19529,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1126769765
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19605,6 +19705,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1135368258
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20143,6 +20245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1156775239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20449,6 +20553,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1157273532
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20623,6 +20729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1172681484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20965,6 +21073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1188832275
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21139,6 +21249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1199589915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21409,6 +21521,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1233970704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22219,6 +22333,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1288544348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22620,6 +22736,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1324948140
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22794,6 +22912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1331689254
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22927,7 +23047,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f4abf5ae61f6845b7886017086747e9a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -23109,6 +23229,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1334675137
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23518,6 +23640,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1342728806
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25180,6 +25304,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1465329769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25465,6 +25591,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1477422876
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25807,6 +25935,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1486026176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26113,6 +26243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1495895464
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26564,6 +26696,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1520962989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27202,6 +27336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1552135221
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27562,6 +27698,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1571895936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27736,6 +27874,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1574742036
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27961,6 +28101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1591314578
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28370,6 +28512,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1603410436
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28544,6 +28688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1608478511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28829,6 +28975,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1621184130
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29118,6 +29266,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1621883086
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29416,6 +29566,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1638597004
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29590,6 +29742,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1642538547
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29931,6 +30085,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1649153130
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30448,6 +30604,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1711510536
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30733,6 +30891,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1727745034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30993,6 +31153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1745422692
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31167,6 +31329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1748099209
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31341,6 +31505,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1756338675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31515,6 +31681,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1759069735
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31824,6 +31992,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1770719892
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32039,6 +32209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1775189827
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32391,6 +32563,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1785987012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32676,6 +32850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1795671761
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32850,6 +33026,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1804555017
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33210,6 +33388,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1835194838
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33614,6 +33794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1851217765
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34056,6 +34238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1892614701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34230,6 +34414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1904215423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34680,6 +34866,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1947097235
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34854,6 +35042,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1955268171
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35059,6 +35249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1964224912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35233,6 +35425,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &1979969107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35607,6 +35801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &2007772081
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35781,6 +35977,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &2022221395
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36284,6 +36482,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &2059922458
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36458,6 +36658,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &2065992047
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37317,6 +37519,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  Cactus: {fileID: 0}
+  CactusDamage: {fileID: 0}
 --- !u!61 &2139412182
 BoxCollider2D:
   m_ObjectHideFlags: 0
