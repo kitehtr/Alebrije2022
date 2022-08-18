@@ -471,6 +471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (4)
@@ -1030,6 +1034,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (17)
@@ -6937,6 +6945,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (16)
@@ -8307,6 +8319,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (1)
@@ -11196,6 +11212,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704717524}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960543, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: player
       value: 
@@ -11319,6 +11339,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (3)
@@ -11381,6 +11405,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (18)
@@ -13963,6 +13991,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704717524}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960543, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: player
       value: 
@@ -14024,6 +14056,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower
@@ -15517,6 +15553,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (5)
@@ -19926,6 +19966,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (8)
@@ -21371,6 +21415,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704717524}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960543, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: player
       value: 
@@ -24533,6 +24581,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704717524}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960543, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: player
       value: 
@@ -24599,6 +24651,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (9)
@@ -24661,6 +24717,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (2)
@@ -24867,6 +24927,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57004619546fff44a980e1d28876c5e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1435927665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1435927667}
+  - component: {fileID: 1435927666}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1435927666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435927665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474497247363d534998b1a4b154196ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1435927667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435927665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1437666689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27069,6 +27173,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (7)
@@ -29415,6 +29523,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (13)
@@ -32412,6 +32524,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (15)
@@ -33113,6 +33229,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (19)
@@ -33175,6 +33295,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (14)
@@ -33237,6 +33361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (12)
@@ -34716,6 +34844,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704717524}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960543, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: player
       value: 
@@ -36331,6 +36463,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (6)
@@ -37063,6 +37199,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (11)
@@ -37211,6 +37351,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1587075554}
     m_Modifications:
+    - target: {fileID: 581688698, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3708777935454960546, guid: acfdd0604008cbc4d864e0f6c1ce25c8, type: 3}
       propertyPath: m_Name
       value: Flower (10)
