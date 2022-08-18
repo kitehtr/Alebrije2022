@@ -44,6 +44,7 @@ public class Patrol : MonoBehaviour
             else
             {
                 DirectionChange();
+                
             }
         }
         else

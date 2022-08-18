@@ -114,12 +114,12 @@ public class playerMovement : MonoBehaviour
         }
 
 
-
-
-
         //jump prompts
         if(Input.GetButtonDown("Jump") && isGrounded())
-            Jump();
+            {
+                Jump();
+                SoundManager.instance.PlaySound(jumpSound);
+            }
             
         //fly prompts
         if(Input.GetButton("Fly") && mana.currentMana > 0 && !isGrounded() && hasJumped == true && canFly == true )
