@@ -16,6 +16,6 @@ public class PollinationCounter : MonoBehaviour
 
     void Update()
     {
-        text.text = ("Flowers Pollinated: ")+ EndConditions.flowerCounter.ToString();
+        text.text = ("Flowers Pollinated: ")+ EndConditions.flowerCounter.ToString()+ ("/10");
     }
 }
