@@ -61,7 +61,7 @@ public class playerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         currentTime = startingTime;
-        timerActive = true;
+        timerActive = false;
         mana = player.GetComponent<Mana>();
         PauseMenu = player.GetComponent<PauseMenu>();
     
@@ -94,7 +94,7 @@ public class playerMovement : MonoBehaviour
             currentTime = 0;
             timerActive = false;
             canFly = false;     
-            mana.reduceMana(1);
+            
 
             }
             
@@ -129,6 +129,7 @@ public class playerMovement : MonoBehaviour
                     currentTime = 2f;
                     timerActive = true;
                     isFlying = true;
+                    mana.reduceMana(1);
                     
                 }
                 fly();
